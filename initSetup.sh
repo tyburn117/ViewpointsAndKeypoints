@@ -5,7 +5,7 @@ mkdir data
 wget ftp://cs.stanford.edu/cs/cvgl/PASCAL3D+_release1.1.zip
 unzip PASCAL3D+_release1.1.zip
 mv PASCAL3D+_release1.1 PASCAL3D
-mv PASCAL3D+* data/
+mv PASCAL3D* data/
 
 # move all imagenet images in PASCAL3D+ in one folder, to resemble the pascal VOC setup
 mkdir -p data/imagenet/images
